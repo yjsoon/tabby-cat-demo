@@ -17,6 +17,7 @@
 		AF66B8F82AA81B21001CCCB2 /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B8F72AA81B21001CCCB2 /* CatGalleryView.swift */; };
 		AF66B8FA2AA81B2A001CCCB2 /* CatIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B8F92AA81B2A001CCCB2 /* CatIDView.swift */; };
 		AF83D3272AA81D98004FEE2F /* CatFactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */; };
+		AF83D32A2AA8221B004FEE2F /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF83D3292AA8221B004FEE2F /* CatFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AF66B8F72AA81B21001CCCB2 /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
 		AF66B8F92AA81B2A001CCCB2 /* CatIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatIDView.swift; sourceTree = "<group>"; };
 		AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
+		AF83D3292AA8221B004FEE2F /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */,
 				AF66B8F12AA81B03001CCCB2 /* CatFactsView.swift */,
+				AF83D3292AA8221B004FEE2F /* CatFact.swift */,
 			);
 			path = "Cat Facts";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				AF66B8FA2AA81B2A001CCCB2 /* CatIDView.swift in Sources */,
 				AF66B8F82AA81B21001CCCB2 /* CatGalleryView.swift in Sources */,
+				AF83D32A2AA8221B004FEE2F /* CatFact.swift in Sources */,
 				AF66B8E62AA817A4001CCCB2 /* ContentView.swift in Sources */,
 				AF66B8F62AA81B16001CCCB2 /* CatBounceView.swift in Sources */,
 				AF83D3272AA81D98004FEE2F /* CatFactsManager.swift in Sources */,
