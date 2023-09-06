@@ -16,6 +16,7 @@
 		AF66B8F62AA81B16001CCCB2 /* CatBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B8F52AA81B16001CCCB2 /* CatBounceView.swift */; };
 		AF66B8F82AA81B21001CCCB2 /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B8F72AA81B21001CCCB2 /* CatGalleryView.swift */; };
 		AF66B8FA2AA81B2A001CCCB2 /* CatIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B8F92AA81B2A001CCCB2 /* CatIDView.swift */; };
+		AF83D3272AA81D98004FEE2F /* CatFactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AF66B8F52AA81B16001CCCB2 /* CatBounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceView.swift; sourceTree = "<group>"; };
 		AF66B8F72AA81B21001CCCB2 /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
 		AF66B8F92AA81B2A001CCCB2 /* CatIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatIDView.swift; sourceTree = "<group>"; };
+		AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 			children = (
 				AF66B8E32AA817A4001CCCB2 /* Tabby_Cat_Demo_2App.swift */,
 				AF66B8E52AA817A4001CCCB2 /* ContentView.swift */,
-				AF66B8F12AA81B03001CCCB2 /* CatFactsView.swift */,
+				AF83D3282AA81DA2004FEE2F /* Cat Facts */,
 				AF66B8F32AA81B0B001CCCB2 /* CatImagesView.swift */,
 				AF66B8F52AA81B16001CCCB2 /* CatBounceView.swift */,
 				AF66B8F72AA81B21001CCCB2 /* CatGalleryView.swift */,
@@ -80,6 +82,15 @@
 				AF66B8EA2AA817A6001CCCB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF83D3282AA81DA2004FEE2F /* Cat Facts */ = {
+			isa = PBXGroup;
+			children = (
+				AF83D3262AA81D98004FEE2F /* CatFactsManager.swift */,
+				AF66B8F12AA81B03001CCCB2 /* CatFactsView.swift */,
+			);
+			path = "Cat Facts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				AF66B8F82AA81B21001CCCB2 /* CatGalleryView.swift in Sources */,
 				AF66B8E62AA817A4001CCCB2 /* ContentView.swift in Sources */,
 				AF66B8F62AA81B16001CCCB2 /* CatBounceView.swift in Sources */,
+				AF83D3272AA81D98004FEE2F /* CatFactsManager.swift in Sources */,
 				AF66B8F22AA81B03001CCCB2 /* CatFactsView.swift in Sources */,
 				AF66B8E42AA817A4001CCCB2 /* Tabby_Cat_Demo_2App.swift in Sources */,
 				AF66B8F42AA81B0B001CCCB2 /* CatImagesView.swift in Sources */,
