@@ -16,6 +16,7 @@ struct CatFactsView: View {
             // if the optional is not nil, display it
             if let catFact = catFactsManager.catFact {
                 Text(catFact.fact)
+                    .multilineTextAlignment(.center)
                     .padding()
             } else { // if it's nil, display a loading indicator
                 ProgressView()
